@@ -2,7 +2,7 @@
 The DegenToken Smart Contract is an Ethereum-compatible smart contract written in Solidity, designed to be deployed on the Avalanche Fuji testnet. It implements an ERC-20 token with added functionalities, such as minting, transferring, and burning tokens, as well as an in-game store where tokens can be redeemed for items.
 
 ## Getting Started
-## Contract Deployment on Avalanche Fuji Testnet
+### Contract Deployment on Avalanche Fuji Testnet
 Solidity ^0.8.0 (compatible with Avalanche)
 Avalanche-compatible wallet for deploying and interacting with the contract
 
