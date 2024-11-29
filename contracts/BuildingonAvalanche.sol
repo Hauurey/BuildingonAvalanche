@@ -11,7 +11,7 @@ contract DegenToken is ERC20, Ownable {
     mapping(address => uint256) public userInventory;
 
     // Initialize the token with "Degen" as the name and "DGN" as the symbol
-    constructor() ERC20("Degen", "DGN") Ownable(msg.sender) {
+    constructor() ERC20("Degen", "DGN") {
         productPrices[1] = 400;
         productPrices[2] = 350;
         productPrices[3] = 250;
